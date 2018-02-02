@@ -28,7 +28,7 @@ namespace InterpolatedStrings
             var date = DateTime.Now;
             var price = 1.99m;
             var unit = Unit.item;
-            Console.WriteLine($"On {date}, the price of {item} was {price} per {unit}.");
+            Console.WriteLine($"On {date:d}, the price of {item} was {price:C2} per {unit}.");
         }
     }
 }
